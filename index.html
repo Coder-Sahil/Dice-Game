@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game By Sahil</title>
+    <link rel="icon" href="Static/favicon/diceFavicon.ico">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap Import -->
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+        crossorigin="anonymous"/>
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous">
+    </script>
+
+    <!-- Font Awesome Script -->
+    <script
+        defer
+        src="https://use.fontawesome.com/releases/v5.0.7/js/all.js">
+    </script>
+
+    <!-- External Css Link -->
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    
+    <div class="container title-div">
+        <!-- <img src="Static/favicon/diceFavicon.ico" alt="Dice Game"> -->
+        <h1>Welcome To Dice Game</h1>
+        <h6>This game shuffle the dice and give random number and show the winner</h6>
+    </div>
+
+    <div class="container feature-div">
+        <div class="row container-fluid feature-div">
+            <div class="col col-lg-12 col-md-12 col-sm-12 col-12">
+                <button type="submit" class="btn btn-sm primary-bg-color" id="name-change-btn"> Change Player Name</button>
+            </div>
+            <div class="col col-lg-4 col-md-6 col-sm-12 col-12 container-fluid">
+                <h6 class="feature-player-name" id="player-one-name">Player 1</h6>
+                <img src="Static/dice-images/dice6.png" alt="Dice-Image" class="feature-dice-img" id="player-one-dice-img">
+                <h6 id="player-one-win-count" class="item-hidden"></h6>
+            </div>
+            <div class="col col-lg-4 col-md-12 col-sm-12 col-12 container-fluid" id="winner-div">
+                <h2 id="feature-winner"><i class="fas fa-trophy"></i> Winner is Sahil Trivedi</h2>            
+            </div>
+            <div class="col col-lg-4 col-md-6 col-sm-12 col-12 container-fluid">
+                <h6 class="feature-player-name" id="player-two-name">Player 2</h6>
+                <img src="Static/dice-images/dice6.png" alt="Dice-Image" class="feature-dice-img" id="player-two-dice-img">
+                <h6 id="player-two-win-count" class="item-hidden"></h6>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="playArea-div">
+        <button type="submit" class="btn btn-lg btn-warning" id="roll-dice-btn"> Click To Roll Dice</button>
+        <br><br>
+        <button type="submit" class="btn btn-sm btn-danger reset-btn" id="reset-btn">Reset</button>
+    </div>
+
+    <div class="container-fluid" id="footer">
+        <h6>Made By Sahil Trivedi 😊😊 with Love 💖💘</h6>
+        <a href="https://in.linkedin.com/in/sahiltrivedi007"><i class="footer-social fab fa-linkedin"></i></a>
+        <a href="https://github.com/Coder-Sahil"><i class="footer-social fab fa-github"></i></a>
+        <a href="https://www.google.com/search?q=For+Twitter+You+Have+To+Contact+Sahil+Trivedi"><i class="footer-social fab fa-twitter"></i></a>
+        <a href="https://www.google.com/search?q=For+instagram+You+Have+To+Contact+Sahil+Trivedi"><i class="footer-social fab fa-instagram"></i></a>
+        <a href=""><i class="footer-social fas fa-envelope"></i></a>
+        <p>© Copyright 2022 Sahil Trivedi</p>
+    </div>
+
+</body>
+</html>
+
+<script src="javascript/index.js"></script>

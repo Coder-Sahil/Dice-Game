@@ -1,0 +1,79 @@
+
+/* color hint pallette https://colorhunt.co/palette/2d24245c3d2eb85c38e0c097 */
+
+body {
+    background-color: #2D2424;
+    color: #E0C097;
+    font-family: 'Lobster', cursive;
+}
+
+em {
+    color: #B85C38;
+    font-family: 'Indie Flower', cursive;
+}
+
+.item-visible {
+    visibility: visible;
+}
+
+.item-hidden {
+    visibility: hidden;
+}
+
+.primary-bg-color {
+    background-color: #E0C097;
+}
+
+.title-div {
+    text-align: center;
+    padding: 50px;
+}
+
+.title-div h6 {
+    font-family: 'Indie Flower', cursive;
+}
+
+.feature-div {
+    text-align: center;
+}
+
+.feature-dice-img {
+    width: 30%;
+    padding: 10px 0;
+}
+
+
+#winner-div {
+    visibility: hidden;
+    padding: 50px;
+}
+
+#playArea-div {
+    text-align: center;
+    padding: 30px 0;
+}
+
+#name-change-btn {
+    margin: 5px 0;
+}
+
+#reset-btn {
+    font-family: 'Indie Flower', cursive;
+}
+
+#footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #5C3D2E;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.footer-social {
+    margin: 1%;
+    color: #B85C38;
+}
+
+.footer-social:hover {
+    color: #E0C097;
+}
